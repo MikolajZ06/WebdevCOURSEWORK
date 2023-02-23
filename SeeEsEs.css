@@ -42,7 +42,7 @@ body{
 }
 #AUP2{
     font-size: xx-large;
-    width: 500px;
+    width: 1000px;
     margin-right: 4mm;
 }
 a:link, a:visited{
@@ -184,6 +184,14 @@ a{
     width: 150px;
     height: 30px;
 }
+#AJP1{
+    padding: 3mm;
+    font-size: larger;
+}
+#ApplyHere{
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (max-width: 1700px){
     #AUP1{
         float: left;
@@ -293,7 +301,9 @@ a{
     }
 }
 @media only screen and (max-width: 534px){
-    
+    #AJP1{
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 529px){
     #TITLES{
@@ -317,6 +327,9 @@ a{
         font-size: larger;
         padding:1mm;
         max-width: 460px;
+    }
+    #AUP2{
+        font-size: larger;
     }
     #FIRSTNAME{
         width: 250px;
@@ -351,6 +364,9 @@ a{
     #AUP1{
         max-width: 400px;
     }
+    #AUP2{
+        max-width: 400px;
+    }
 }
 
 @media only screen and (max-width: 380px){
@@ -372,7 +388,10 @@ a{
         font-size: larger;
         padding:1mm;
     }
-    
+    #AUP2{
+        font-size: larger;
+        padding: 1mm;
+    }
 }
 @media only screen and (max-width: 357px){
     #NavBarLINKS{
@@ -389,6 +408,11 @@ a{
     #AUP1{
         text-align: center;
         font-size: large;
+        padding: 1mm;
+    }
+    #AUP2{
+        font-size: large;
+        text-align: center;
         padding: 1mm;
     }
     #Logo{
