@@ -1,0 +1,397 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+#TITLES{
+    padding-top: 2mm;
+    padding-left: 3mm;
+}
+#TITLEAU{
+    width: fit-content;
+    border: 1mm;
+    border-radius: 10px;
+    margin: 6mm;
+}
+#TITLEAF{
+    padding-top: 2mm;
+    text-align: center;
+}
+#Logo{
+
+    height: 2cm;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-left: 3mm;
+    padding-right: 15px;
+}
+
+
+#NavBar{
+    background-color: darkslategrey;
+    vertical-align: middle;
+}
+body{
+    background-color: gainsboro;
+}
+#AUP1{
+    font-size: xx-large;
+    width: 800px;
+    margin-right: 4mm;
+    float: right; 
+}
+#AUP2{
+    font-size: xx-large;
+    width: 500px;
+    margin-right: 4mm;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: lightblue;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    float: left;
+}
+#NavBarLINKS{
+    display: flex;
+    margin-top: 9mm;
+    border-radius: 15px;
+    width: fit-content;
+    position:relative;
+    align-items: center;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+}
+
+#division, #division2{
+    color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+    overflow: hidden;
+}
+a{
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+#EmployeesROW1{
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    margin-top: 3cm;
+}
+#EmployeesROW2{
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    margin-top: 3cm;
+    margin-bottom: 1cm;
+}
+#img1{
+    height: 6cm;
+}
+#img2{
+    height: 6cm;
+}
+#img3{
+    height: 6cm;
+}
+#img4{
+    height: 6cm;
+}
+#img5{
+    height: 6cm;
+}
+#Employee1{
+    margin: 7mm;
+    text-align: center;
+}
+#Employee2{
+    margin: 7mm;
+    text-align: center;
+}
+#Employee3{
+    margin: 7mm;
+    text-align: center;
+}
+#Employee4{
+    margin: 7mm;
+    text-align: center;
+}
+#Employee5{
+    margin: 7mm;
+    text-align: center;
+}
+#text{
+    font-weight: 700;
+}
+#ApplicationFORM{
+    background-color: black;
+    margin: 3mm;
+    border-radius: 5px;
+}
+#WEBDEVIMG{
+    height: auto;
+    width: 50%;
+    margin-left: 6mm;
+}
+#HOMEPAGEAU{
+    height: auto;
+    width: 90%;
+    margin-left: 6mm;
+}
+#ApplicFORM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#FIRSTNAME{
+    width: 500px;
+    height: 70px;
+    margin-bottom: 5mm;
+    border-radius: 20px;
+}
+#LASTNAME{
+    width: 500px;
+    height: 70px;
+    margin-bottom: 5mm;
+    border-radius: 20px;
+}
+#EMAIL{
+    width: 500px;
+    height: 70px;
+    margin-bottom: 5mm;
+    border-radius: 20px;
+}
+#PHONE{
+    width: 500px;
+    height: 70px;
+    margin-bottom: 5mm;
+    border-radius: 20px;
+}
+#SUBMIT{
+    width: 150px;
+    height: 30px;
+}
+@media only screen and (max-width: 1700px){
+    #AUP1{
+        float: left;
+        width: 95%;
+    }
+    #AUP2{
+        float: left;
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 1365px){
+    #img1{
+        height: 5cm;
+    }
+    #img2{
+        height: 5cm;
+    }
+    #img3{
+        height: 5cm;
+    }
+    #img4{
+        height: 5cm;
+    }
+    #img5{
+        height: 5cm;
+    }
+}
+@media only screen and (max-width: 1175px){
+    #img1{
+        height: 4cm;
+    }
+    #img2{
+        height: 4cm;
+    }
+    #img3{
+        height: 4cm;
+    }
+    #img4{
+        height: 4cm;
+    }
+    #img5{
+        height: 4cm;
+    }
+    #Employee1{
+        margin: 4mm;   
+    }
+    #Employee2{
+        margin: 4mm;   
+    }
+    #Employee3{
+        margin: 4mm;
+    }
+    #Employee4{
+        margin: 4mm;
+    }
+    #Employee5{
+        margin: 4mm;
+    }
+}
+@media only screen and (max-width: 1075px){
+    #AUP1{
+        float: left;
+        margin-left: 6mm;
+    }
+    #HOMEPAGEAU{
+        margin-left: 6mm;
+    }
+}
+@media only screen and (max-width: 982px){
+    #WEBDEVIMG{
+        width: 491px;
+    }
+}
+@media only screen and (max-width: 880px){
+    #EmployeesROW1{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    #EmployeesROW2{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    #img1{
+        height: 6cm;
+    }
+    #img2{
+        height: 6cm;
+    }
+    #img3{
+        height: 6cm;
+    }
+    #img4{
+        height: 6cm;
+    }
+    #img5{
+        height: 6cm;
+    }
+}
+@media only screen and (max-width: 770px){
+    #AUP1{
+        text-align: center;
+        max-width: 770px;
+    }
+    #AUP2{
+        text-align: center;
+        max-width: 770px;
+    }
+}
+@media only screen and (max-width: 534px){
+    
+}
+@media only screen and (max-width: 529px){
+    #TITLES{
+        text-align: center;
+    }
+    #WEBDEVIMG{
+        height: auto;
+        width: 90%;
+    }
+    #AUP1{
+        width: 512px;
+        margin-left: 2mm;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 512px){
+    #NavBarLINKS{
+        margin-top: 7.5mm;
+    }
+    #AUP1{
+        font-size: larger;
+        padding:1mm;
+        max-width: 460px;
+    }
+    #FIRSTNAME{
+        width: 250px;
+        height: 70px;
+        margin-bottom: 5mm;
+        border-radius: 20px;
+    }
+    #LASTNAME{
+        width: 250px;
+        height: 70px;
+        margin-bottom: 5mm;
+        border-radius: 20px;
+    }
+    #EMAIL{
+        width: 250px;
+        height: 70px;
+        margin-bottom: 5mm;
+        border-radius: 20px;
+    }
+    #PHONE{
+        width: 250px;
+        height: 70px;
+        margin-bottom: 5mm;
+        border-radius: 20px;
+    }
+    #SUBMIT{
+        width: 100px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 469px){
+    #AUP1{
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    #NavBarLINKS{
+        margin-top: 5mm;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 363px){
+    #NavBarLINKS{
+        margin-top: 3mm;
+    }
+    h2{
+        text-align: center;
+        font-size: x-large;
+    }
+    #AUP1{
+        text-align: center;
+        font-size: larger;
+        padding:1mm;
+    }
+    
+}
+@media only screen and (max-width: 357px){
+    #NavBarLINKS{
+        font-size: 13px;
+        margin-top: 2mm;
+    }
+    li{
+        display: block;
+    }
+    h2{
+        text-align: center;
+        font-size: x-large;
+    }
+    #AUP1{
+        text-align: center;
+        font-size: large;
+        padding: 1mm;
+    }
+    #Logo{
+        height: 1cm;
+    }
+}
