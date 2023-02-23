@@ -191,6 +191,8 @@ a{
 #ApplyHere{
     display: flex;
     justify-content: center;
+    width: 150px;
+    height: 15px;
 }
 #AJP2{
     margin-left: 3mm;
