@@ -191,6 +191,18 @@ a{
 #ApplyHere{
     display: flex;
     justify-content: center;
+    width: 150px;
+    height: 15px;
+}
+#AJP2{
+    margin-left: 3mm;
+}
+#SUBMIT{
+    margin-bottom: 3mm;
+    font-size: 16px;
+}
+::placeholder{
+    font-size: 30px;
 }
 @media only screen and (max-width: 1700px){
     #AUP1{
@@ -359,6 +371,9 @@ a{
         width: 100px;
         height: 30px;
     }
+    ::placeholder{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 469px){
     #AUP1{
@@ -368,7 +383,14 @@ a{
         max-width: 400px;
     }
 }
-
+@media only screen and (max-width: 420px){
+    #AUP1{
+        max-width: 300px;
+    }
+    #AUP2{
+        max-width: 300px;
+    }
+}
 @media only screen and (max-width: 380px){
     #NavBarLINKS{
         margin-top: 5mm;
