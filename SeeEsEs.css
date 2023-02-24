@@ -35,13 +35,13 @@ body{
     background-color: gainsboro;
 }
 #AUP1{
-    font-size: xx-large;
+    font-size: larger;
     width: 800px;
     margin-right: 4mm;
     float: right; 
 }
 #AUP2{
-    font-size: xx-large;
+    font-size: larger;
     width: 1000px;
     margin-right: 4mm;
 }
@@ -336,12 +336,12 @@ a{
         margin-top: 7.5mm;
     }
     #AUP1{
-        font-size: larger;
+        font-size: large;
         padding:1mm;
         max-width: 460px;
     }
     #AUP2{
-        font-size: larger;
+        font-size: large;
     }
     #FIRSTNAME{
         width: 250px;
@@ -391,6 +391,14 @@ a{
         max-width: 300px;
     }
 }
+@media only screen and (max-width: 390px){
+    #AUP1{
+        margin-left: 1cm;
+    }
+    #AUP2{
+        margin-left: 1cm;
+    }
+}
 @media only screen and (max-width: 380px){
     #NavBarLINKS{
         margin-top: 5mm;
@@ -407,11 +415,11 @@ a{
     }
     #AUP1{
         text-align: center;
-        font-size: larger;
+        font-size: large;
         padding:1mm;
     }
     #AUP2{
-        font-size: larger;
+        font-size: large;
         padding: 1mm;
     }
 }
