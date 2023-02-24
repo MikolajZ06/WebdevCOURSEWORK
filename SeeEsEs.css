@@ -391,6 +391,14 @@ a{
         max-width: 300px;
     }
 }
+@media only screen and (max-width: 390px){
+    #AUP1{
+        margin-left: 1cm;
+    }
+    #AUP2{
+        margin-left: 1cm;
+    }
+}
 @media only screen and (max-width: 380px){
     #NavBarLINKS{
         margin-top: 5mm;
