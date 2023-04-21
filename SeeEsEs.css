@@ -233,14 +233,25 @@ a{
     margin-top:6mm;
     margin-bottom: 10%;
 }
-#FooterAll{
+.FooterAll{
     background-color: darkslategrey;
     position: fixed;
-    height: 10%;
+    height: 55px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+#FacebookPNG{
+    max-height: 50px;
+}
+#InstagramPNG{
+    max-height: 50px;
+}
+#TwitterPNG{
+    max-height: 50px;
 }
 @media only screen and (max-width: 1700px){
     #AUP1{
@@ -433,14 +444,6 @@ a{
     }
     #AUP2{
         max-width: 370px;
-    }
-}
-@media only screen and (max-width: 390px){
-    #AUP1{
-    
-    }
-    #AUP2{
-
     }
 }
 @media only screen and (max-width: 380px){
