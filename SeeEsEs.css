@@ -33,6 +33,7 @@
 }
 body{
     background-color: gainsboro;
+    margin-bottom: 50px;
 }
 #AUP1{
     font-size: larger;
@@ -44,6 +45,7 @@ body{
     font-size: larger;
     width: 1000px;
     margin-right: 4mm;
+    margin-bottom: 10%;
 }
 a:link, a:visited{
     color: white;
@@ -204,6 +206,42 @@ a{
 ::placeholder{
     font-size: 30px;
 }
+#Website1{
+    background-color: black;
+    margin: 3mm;
+    border-radius: 5px;
+}
+#Website2{
+    background-color: black;
+    margin: 3mm;
+    border-radius: 5px;
+}
+#Website3{
+    background-color: black;
+    margin: 3mm;
+    border-radius: 5px;
+}
+#Website4{
+    background-color: black;
+    margin: 3mm;
+    border-radius: 5px;
+}
+.WebsiteLinks{
+    vertical-align: auto;
+    display: flex;
+    justify-content: center;
+    margin-top:6mm;
+    margin-bottom: 10%;
+}
+#FooterAll{
+    background-color: darkslategrey;
+    position: fixed;
+    height: 10%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
 @media only screen and (max-width: 1700px){
     #AUP1{
         float: left;
@@ -326,7 +364,7 @@ a{
         width: 90%;
     }
     #AUP1{
-        width: 512px;
+        max-width: 512px;
         margin-left: 2mm;
         height: auto;
     }
@@ -375,28 +413,34 @@ a{
         font-size: 20px;
     }
 }
+@media only screen and (max-width: 476px){
+    .WebsiteLinks{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media only screen and (max-width: 469px){
     #AUP1{
-        max-width: 400px;
+        max-width: 430px;
     }
     #AUP2{
-        max-width: 400px;
+        max-width: 430px;
     }
 }
 @media only screen and (max-width: 420px){
     #AUP1{
-        max-width: 300px;
+        max-width: 370px;
     }
     #AUP2{
-        max-width: 300px;
+        max-width: 370px;
     }
 }
 @media only screen and (max-width: 390px){
     #AUP1{
-        margin-left: 1cm;
+    
     }
     #AUP2{
-        margin-left: 1cm;
+
     }
 }
 @media only screen and (max-width: 380px){
